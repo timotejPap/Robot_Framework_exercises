@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231028 07:49:30.870" rpa="false" schemaversion="4">
+<suite id="s1" name="DU 02 Premenne" source="D:\IT learning\Robot Framework\Robot_Framework_exercises\Timotej Pap course Kitner\Lekcia_02\DU_02\DU_02_Premenne.robot">
+<test id="s1-t1" name="Pozitivny test 1" line="14">
+<kw name="Run" library="OperatingSystem">
+<var>${res}</var>
+<arg>${TEXT1}</arg>
+<doc>Runs the given command in the system and returns the output.</doc>
+<msg timestamp="20231028 07:49:31.022" level="INFO">Running command 'help rename 2&gt;&amp;1'.</msg>
+<msg timestamp="20231028 07:49:31.150" level="INFO">${res} = Renames a file or files.
+
+RENAME [drive:][path]filename1 filename2.
+REN [drive:][path]filename1 filename2.
+
+Note that you cannot specify a new drive or path for your destination file.</msg>
+<status status="PASS" starttime="20231028 07:49:31.004" endtime="20231028 07:49:31.150"/>
+</kw>
+<kw name="Should Contain" library="BuiltIn">
+<arg>${res}</arg>
+<arg>${ODPOVED1}</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" starttime="20231028 07:49:31.150" endtime="20231028 07:49:31.153"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${TEXT1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231028 07:49:31.153" endtime="20231028 07:49:31.155"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Bol spustený prikaz ${TEXT1} s odpovedou ${ODPOVED1}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20231028 07:49:31.155" level="INFO">Bol spustený prikaz help rename s odpovedou Renames a file or files.</msg>
+<status status="PASS" starttime="20231028 07:49:31.155" endtime="20231028 07:49:31.155"/>
+</kw>
+<status status="PASS" starttime="20231028 07:49:30.988" endtime="20231028 07:49:31.155"/>
+</test>
+<status status="PASS" starttime="20231028 07:49:30.870" endtime="20231028 07:49:31.155"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="DU 02 Premenne">DU 02 Premenne</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

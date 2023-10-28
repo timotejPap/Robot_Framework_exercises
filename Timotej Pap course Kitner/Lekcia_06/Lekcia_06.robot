@@ -41,7 +41,7 @@ Quick Get Request With Parameters Test
 
 Quick Get A JSON Body Test 2
     ${response}=                GET  https://jsonplaceholder.typicode.com/posts/5
-    Should Be Equal As Strings  blabla  ${response.json()}[title]
+    Should Be Equal As Strings  blablable  ${response.json()}[title]
 
 
 # cv62
