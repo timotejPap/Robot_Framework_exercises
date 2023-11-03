@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231103 21:21:01.057" rpa="false" schemaversion="4">
+<suite id="s1" name="Robot Framework exercises" source="D:\IT learning\Robot Framework\Robot_Framework_exercises">
+<suite id="s1-s1" name="Timotej Pap course Kitner" source="D:\IT learning\Robot Framework\Robot_Framework_exercises\Timotej Pap course Kitner">
+<suite id="s1-s1-s1" name="Lekcia 02" source="D:\IT learning\Robot Framework\Robot_Framework_exercises\Timotej Pap course Kitner\Lekcia_02">
+<suite id="s1-s1-s1-s1" name="Lekcia 02" source="D:\IT learning\Robot Framework\Robot_Framework_exercises\Timotej Pap course Kitner\Lekcia_02\Lekcia_02.robot">
+<test id="s1-s1-s1-s1-t1" name="Skuska lok. premennej" line="41">
+<kw name="Set Variable" library="BuiltIn">
+<var>${meno}</var>
+<arg>value</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20231103 21:21:01.184" level="INFO">${meno} = value</msg>
+<status status="PASS" starttime="20231103 21:21:01.182" endtime="20231103 21:21:01.186"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${POZDRAV} ${meno}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231103 21:21:01.188" endtime="20231103 21:21:01.190"/>
+</kw>
+<status status="PASS" starttime="20231103 21:21:01.181" endtime="20231103 21:21:01.190"/>
+</test>
+<status status="PASS" starttime="20231103 21:21:01.160" endtime="20231103 21:21:01.196"/>
+</suite>
+<status status="PASS" starttime="20231103 21:21:01.147" endtime="20231103 21:21:01.201"/>
+</suite>
+<status status="PASS" starttime="20231103 21:21:01.138" endtime="20231103 21:21:01.204"/>
+</suite>
+<status status="PASS" starttime="20231103 21:21:01.095" endtime="20231103 21:21:01.214"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Framework exercises">Robot Framework exercises</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Timotej Pap course Kitner">Robot Framework exercises.Timotej Pap course Kitner</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Lekcia 02">Robot Framework exercises.Timotej Pap course Kitner.Lekcia 02</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1-s1" name="Lekcia 02">Robot Framework exercises.Timotej Pap course Kitner.Lekcia 02.Lekcia 02</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20231103 21:21:01.021" level="ERROR">Error in file 'D:\IT learning\Robot Framework\Robot_Framework_exercises\Timotej Pap course Kitner\Lekcia_02\Lekcia_02.robot' on line 7: Non-existing setting '"""'.</msg>
+<msg timestamp="20231103 21:21:01.021" level="ERROR">Error in file 'D:\IT learning\Robot Framework\Robot_Framework_exercises\Timotej Pap course Kitner\Lekcia_02\Lekcia_02.robot' on line 8: Non-existing setting 'Je aj druha moznost'.</msg>
+<msg timestamp="20231103 21:21:01.026" level="ERROR">Error in file 'D:\IT learning\Robot Framework\Robot_Framework_exercises\Timotej Pap course Kitner\Lekcia_02\Lekcia_02.robot' on line 9: Non-existing setting 'viacriadkoveho'.</msg>
+<msg timestamp="20231103 21:21:01.028" level="ERROR">Error in file 'D:\IT learning\Robot Framework\Robot_Framework_exercises\Timotej Pap course Kitner\Lekcia_02\Lekcia_02.robot' on line 10: Non-existing setting 'komentara'.</msg>
+<msg timestamp="20231103 21:21:01.029" level="ERROR">Error in file 'D:\IT learning\Robot Framework\Robot_Framework_exercises\Timotej Pap course Kitner\Lekcia_02\Lekcia_02.robot' on line 11: Non-existing setting '"""'.</msg>
+</errors>
+</robot>
